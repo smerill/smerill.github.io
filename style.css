@@ -107,27 +107,25 @@ nav {
 
 nav ul {
   list-style-type: none;
-  
 }
 
-nav li {
-  min-width: 120px;
+nav li { 
   text-align: center;
-  padding: 20px;
   transition: all 0.2s ease 0s;
+  margin-left: 10px;
+  padding: 10px 10px;
 }
 
 nav li a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font: 500 16px 'Anta', sans-serif;
 }
 
 
 nav h3 img {
-  margin: 20px 165px;
+
   height: 55px;
 }
   
@@ -223,6 +221,7 @@ nav + figure img {
   text-align: center;
   display: flex;
   align-items: center;
+  gap: 180px;
   padding-bottom: 50px;
 }
 
@@ -323,7 +322,11 @@ ul li:nth-child(2) a:before{
   nav {
     position: relative;
   }
+  nav h3 {
+    display: hidden;
+  }
   .info-sect{
     flex-direction: column;
+    gap: 40px;
   }
 }
