@@ -1,2 +1,1 @@
-# smerill.github.io
- 
+http://smerill.github.io
